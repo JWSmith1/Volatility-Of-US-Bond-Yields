@@ -3,7 +3,7 @@ Modeling the volatility of US bond yields.
 
 In this project, I built a model to study the nature of volatility in the case of US government bond yields.
 
-In the output table in the variable yc_all_tail , we see the yields for some maturities.
+In the output table, we see the yields for some maturities.
 
 TABLE:
 
@@ -15,7 +15,7 @@ SVENY01 SVENY05 SVENY10 SVENY20 SVENY30
 2019-03-28  2.3601  2.2137  2.4058  2.6907  2.9605
 2019-03-29  2.3719  2.2398  2.4143  2.6939  2.9538
 
-These data include the whole yield curve. The yield of a bond is the price of the money lent. The higher the yield, the more money you receive on your investment. The yield curve has many maturities; in this case, it ranges from 1 year to 30 years. Different maturities have different yields, but yields of neighboring maturities are relatively close to each other and also move together.
+The data includes the whole yield curve. The yield of a bond is the price of the money lent. The higher the yield, the more money you receive on your investment. The yield curve has many maturities; in this case, it ranges from 1 year to 30 years. Different maturities have different yields, but yields of neighboring maturities are relatively close to each other and also move together.
 
 As we visualize the yields over time. We will see that the long yields (e.g. SVENY30) tend to be more stable in the long term, while the short yields (e.g. SVENY01) vary a lot. These movements are related to the monetary policy of the FED and economic cycles.
 ![image](https://user-images.githubusercontent.com/74027890/110206269-ab352a80-7e4a-11eb-90a2-746684813bb0.png)
